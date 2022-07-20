@@ -19,6 +19,7 @@ export default function Home() {
   }
   return (
     <div>
+      Edit Test
       <div style={{height: "200vh", backgroundColor: "#ccc"}}></div>
       <Image lazyBoundary="1px" loading='lazy' loader={myLoader} src="https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg" width="200px" height="200px" layout="fixed" alt="This is Image" placeholder='blur' blurDataURL="skeleton.jpg"/>
     </div>
